@@ -1,8 +1,11 @@
 from pywallet import wallet
-print("Welcome to BM Hd wallet generator!!")
+print("Welcome to BM Hd wallet generator1.1!!")
 print("this is a program that simply generates 7 different cryptocurrency address")
 print("------------------------------------")
-print("Bitcoin:BTC \n 2-BitcoinCash:BCH \n 3-BitcoinGold:BTG \n 4-Ethereum:ETH \n 5-LiteCoin:LTC \n 6-Dash:DSH \n 7-DogeCoin:DOGE")
+print("Bitcoin:BTC \n BitcoinCash:BCH \n BitcoinGold:BTG \n Ethereum:ETH \n LiteCoin:LTC \n Dash:DSH \n DogeCoin:DOGE")
+print(" ")
+print("for supporting us , you can donate BTC to address below:")
+print("36XJBnHvuk57tMeCYNUGSXFrR72tzhHBuk")
 print(" ")
 coin = input("Enter the symbol of cryptocurrency to generate a wallet. like BTC(they must be in uppercase): ")
 seed = wallet.generate_mnemonic()
